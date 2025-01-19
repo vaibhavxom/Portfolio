@@ -46,7 +46,6 @@ Welcome to my portfolio website! This site highlights my skills, projects, and p
 ## Social Links
 - LinkedIn: [Rushikesh Mithagare](https://www.linkedin.com/in/rushikesh-mithagare-639861178)
 - Twitter: [@RUSHIMITHAGARE](https://x.com/RUSHIMITHAGARE?t=q971p2BaEh6E7whIIsiqQQ&s=08)
-- Instagram: [naam_main_kya_he_rakha_hai](https://www.instagram.com/naam_main_kya_he_rakha_hai?igsh=MTluc2NtYTI0ZDE3Yg==)
 - GitHub: [vaibhavxom](http://github.com/vaibhavxom)
 
 ## How to Access
