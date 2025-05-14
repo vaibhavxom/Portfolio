@@ -1,56 +1,106 @@
-# Portfolio Website
+# 🌐 Full Stack Developer Portfolio
 
-Welcome to my portfolio website! This site highlights my skills, projects, and professional experience as a Java Developer and aspiring Full-Stack Software Engineer.
-
-## Features
-
-### **Home**
-- Introduction with a friendly welcome message.
-- Quick overview of my roles: Java Developer and Backend Developer.
-- Social media links for easy connection.
-
-### **About**
-- A brief introduction about me, my academic background, and my passion for software development.
-- Profile details including my full name, birth date, job role, website link, and email address.
-- Skills section showcasing proficiency in:
-  - **Backend Technologies:** Java, Spring Boot, Hibernate, Python, and PHP.
-  - **Frontend Skills:** HTML, CSS, and responsive web design.
-- Skill proficiency bars for visual representation.
-
-### **Resume**
-- Detailed educational background:
-  - BSc in Software Engineering (2022–2025) at the College of Computer Science & Information Technology, Latur.
-- Brief on hands-on experience and academic projects.
-
-### **Services**
-- Overview of services offered:
-  - **Web Design:** Creative front-end designs as part of my full-stack knowledge.
-  - **Web Development:** Development of websites and web applications using technologies like JavaScript, PHP, JSP, and more.
-  - **Graphics Design:** Personal projects in Blender for creating 3D designs.
-
-### **Contact**
-- Contact information:
-  - **Location:** Latur, Maharashtra, India.
-  - **Email:** Rushimithagare02@gmail.com.
-- A form to send messages directly from the site.
-
-### **Downloadable Resume**
-- Direct link to download my resume in PDF format.
-
-## Technologies Used
-- **Frontend:** HTML5, CSS3.
-- **Backend:** Java, Spring Boot, Hibernate.
-- **Additional Tools:** JavaScript, PHP, Blender.
-- **Design:** Responsive and user-friendly interface.
-
-## Social Links
-- LinkedIn: [Rushikesh Mithagare](https://www.linkedin.com/in/rushikesh-mithagare-639861178)
-- Twitter: [@RUSHIMITHAGARE](https://x.com/RUSHIMITHAGARE?t=q971p2BaEh6E7whIIsiqQQ&s=08)
-- GitHub: [vaibhavxom](http://github.com/vaibhavxom)
-
-## How to Access
-- Visit the live site: [Portfolio](https://vaibhavxom.github.io/Portfolio/)
+A full stack portfolio website built using **React (Frontend)** and **Spring Boot (Backend)** that showcases my projects, skills, and provides a contact form which sends emails using Gmail SMTP.
 
 ---
 
-Feel free to explore my website to learn more about my skills, services, and how we can collaborate!
+## 🧑‍💻 Author
+
+**Rushikesh Mithagare**  
+🎓 B.Sc. Software Engineering, COCSIT Latur  
+📍 Swami Ramanand Teerth Marathwada University, Nanded  
+📅 Expected Graduation: April 2025  
+
+---
+
+## 📌 Tech Stack
+
+| Layer      | Technology          |
+|------------|---------------------|
+| Frontend   | React, HTML, CSS    |
+| Backend    | Spring Boot, Java   |
+| Email      | Gmail SMTP via JavaMailSender |
+| Database   | PostgreSQL (optional for storing messages) |
+| Deployment | GitHub Pages (Frontend), AWS EB / Render (Backend) |
+
+---
+
+## 🚀 Features
+
+- 🔍 Clean and responsive UI
+- 📬 Contact form that sends email directly to me
+- 🧰 Projects section with demo and GitHub links
+- 📃 Resume download button
+- 📱 Mobile-friendly design
+
+---
+
+## 🔧 Project Structure
+
+portfolio-project/  
+├── backend-springboot/  
+│ └── src/main/java/com/rushi/spring_boot  
+│ ├── ContactController.java  
+│ ├── EmailService.java  
+│ └── ContactForm.java  
+│ └── application.properties  
+│  
+├── frontend-react/  
+│ └── src/components/Contact.jsx  
+│ └── App.js  
+│ └── index.js  
+│  
+└── README.md
+
+
+---
+
+## 📥 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/vaibhavxom/portfolio-project.git
+cd portfolio-project
+```
+
+### 2. Run Backend (Spring Boot)
+```bash
+cd backend-springboot
+./mvnw spring-boot:run
+```
+Make sure `application.properties` is correctly configured for SMTP and DB (if used).
+
+
+### 3. Run Frontend (React)
+```bash
+cd frontend-react
+npm install
+npm start
+```
+React will run at ``http://localhost:3000``
+
+
+
+### 🌐 Deployment Instructions
+## Frontend (GitHub Pages)
+```bash
+npm run build
+npm install -g gh-pages
+gh-pages -d build
+```
+## Backend (AWS Elastic Beanstalk or Render)
+`Package your Spring Boot app as a .jar`
+
+Use a Procfile for AWS EB:
+
+```bash
+web: java -jar target/your-app-name.jar
+```
+## 📬 Contact
+If you'd like a portfolio like this or want to get in touch:
+
+📧 Email: rushimithagare02@gmail.com  
+🔗 LinkedIn: linkedin.com/in/rushikesh-mithagare-639861178  
+💻 GitHub: github.com/vaibhavxom
+
